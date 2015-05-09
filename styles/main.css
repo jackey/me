@@ -35,7 +35,8 @@ body {
 
 .header .s4 {
     float: right;
-    margin-top: 12px;
+    position: relative;
+    margin-top: 40px;
 }
 
 .header .s2 .slogan {
@@ -48,18 +49,21 @@ body {
 
 .header .s4 h3 {
     clear: both;
-    font-size: 14px;
+    font-size: 11px;
+    position: absolute;
+    right: -20px;
+    top: -19px;
 }
 
 .header .s4 .req {
     float:left;
-    font-size: 12px;
     margin-right: 5px;
     line-height: 100%;
     text-align: justify;
     font-weight: bold;
     color: #964848;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .header .s4 .req:hover {
@@ -178,6 +182,16 @@ body {
     line-height: 50px;
 }
 
+.citems .item .info1 h4 a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.citems .item .info1 h4 a:hover {
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
 .citems .item .info1 p {
     font-size: 13px;
     margin-bottom: 10px;
@@ -262,6 +276,18 @@ body {
     text-decoration: none;
     padding-bottom: 5px;
     font-size: 15px;
+}
+
+.wechat-pp {
+    position: absolute;
+    width: 200px;
+    z-index: 111111;
+    left: -168px;
+    top: -2px;
+}
+
+.wechat-pp img {
+    width: 100%;
 }
 
 
